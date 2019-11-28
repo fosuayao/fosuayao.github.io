@@ -43,7 +43,7 @@
   list-style: none;
 }
 .main_content>li {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
 }
 .main {
   width:100%;
@@ -79,10 +79,10 @@ a {
     margin: 0;
 }
 .main_content>li .meta {
-    margin-top: 20px;
+    margin-top: 12px;
     border: 1px solid #ecf0f1;
-    border-width: 1px 0;
-    padding: 22px 10px;
+    border-width: 2px 0;
+    padding: 8px 10px;
     font-size: .75rem;
     color: #7f8c8d;
 }
