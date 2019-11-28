@@ -9,7 +9,7 @@
     "menu": {
         "首页":"./",
         "Linux基础":"issue_per_label.html?label=Linux基础",
-        "Linux下C编程":"issue_per_label.html?label=Linux-C",
+        "Linux下C编程":"issue_per_label.html?label=Linux下C编程",
         "Shell命令":"issue_per_label.html?label=Shell命令",
 		"Shell编程":"issue_per_label.html?label=Shell编程",
         "嵌入式基础":"issue_per_label.html?label=嵌入式基础",
@@ -19,13 +19,13 @@
 		"系统编程":"issue_per_label.html?label=系统编程",
 		"网络编程":"issue_per_label.html?label=网络编程",
 		
-		"C++编程":"issue_per_label.html?label=C++",
-		"QT编程":"issue_per_label.html?label=QT",
-		"LINUX音视频":"issue_per_label.html?label=av",
+		"C++编程":"issue_per_label.html?label=C++编程",
+		"QT编程":"issue_per_label.html?label=QT编程",
+		"LINUX音视频":"issue_per_label.html?label=LINUX音视频",
 
-        "小工具":"issue_per_label.html?label=tools",
-        "网页开发":"issue_per_label.html?label=web",
-        "其他":"issue_per_label.html?label=other",
+        "小工具":"issue_per_label.html?label=小工具",
+        "网页开发":"issue_per_label.html?label=网页开发",
+        "其他":"issue_per_label.html?label=其他",
         "灵感想法":"https://imuncle.github.io/timeline",
         "关于我": "content.html?id=41"
     },
