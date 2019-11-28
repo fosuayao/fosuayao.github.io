@@ -59,6 +59,14 @@
 .main_content>li h4.title a {
     color: #2c3e50;
     transition: color .3s;
+	
+	
+	background-color: #51C332;
+    text-align: left;
+    color: white;
+    border-radius: 10px 10px 10px 10px;
+    font-weight: bold;
+    padding: 5px 10px 5px 10px;
 }
 a {
     text-decoration: none;
