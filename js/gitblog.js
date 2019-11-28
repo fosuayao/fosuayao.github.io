@@ -152,7 +152,7 @@ var gitblog = function(config) {
         this.page = new Pages();
         this.icons = [];
         this.icon_num = 0;
-        this.content = 'Powered by <a href="fosuayao.com" target="_blank" style="color: aquamarine;text-decoration:none;border-bottom: 1px solid #79f8d4;">fosuayao</a>';
+        this.content = 'Powered by <a href="http://www.fosuayao.com" target="_blank" style="color: aquamarine;text-decoration:none;border-bottom: 1px solid #79f8d4;">fosuayao</a>';
     }
 
     Footer.prototype = {
