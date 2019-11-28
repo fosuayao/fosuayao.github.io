@@ -26,7 +26,7 @@
     padding-left: 10px;
 }
 .main {
-    transform: translateX(0);
+    transform: translateX(-30);
     min-height: 100vh;
     transition: all 0.4s;
 }
@@ -45,7 +45,7 @@
 }
 .main-navication a, .main-navication a:visited {
     display: block;
-    padding: 0 30px;
+    padding: 0 15px;
     color: white;
     text-decoration: none;
 }
