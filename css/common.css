@@ -52,8 +52,8 @@
 .main-navication a:hover {
     display: block;
     padding: 0 5px;
-	font-size:14px;
     color: #3370CC;
+	font-size: 14px;
 }
 .main-navication span {
     font-size: 12px;
