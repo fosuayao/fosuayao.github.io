@@ -23,7 +23,7 @@
 }
 .main-navication li {
     list-style: none;
-    padding-left: 10px;
+    padding-left: 50px;
 }
 .main {
     transform: translateX(0);
@@ -59,7 +59,7 @@
     line-height: 48px;
     display: block;
     opacity: 0;
-    transform: translateX(-5px);
+    transform: translateX(-50px);
     transition: all 0.4s;
 }
 ul.pagination {
