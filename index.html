@@ -56,28 +56,17 @@
     <img class="Totop" href="javascript:;" src="images/totop.png">
     <canvas class="live2d hidden-xs hidden-sm" id="live2d" width="220" height="200"></canvas>
 	
-	<audio src="./media/清明上河图.mp3" muted autoplay loop id="myaudio" style="display: none"></audio>
-	<script>
-	var audio = document.getElementById('myaudio');
-	var t1 = 3e3;
-	var t2 = 2500;
-	var play = false;
-	funcrion run(){
-		if(play){
-			return false;
+	<audio src="./media/清明上河图.mp3" hidden="true" loop id="music"></audio>
+	<script>     //封装函数让谷歌浏览器自动播放
+	function play() {
+		var music = document.getElementById("music"); 　//判断如果音乐停止播放中，就让他播放。。。
+		if (music.paused) {
+			music.paused = false;
+			music.play();
 		}
-		audio.currentTime = 0;
-		audio.volume = 0.5;
-		audio.muted = false;
-		play = true;
-		setTimeout(function(){
-			play = false;
-			audio.muted = true;
-		},t2);
 	}
-	setInterval(function(){
-		run();
-	},t1);
+	//调用函数
+	setInterval(play(), 1);
 	</script>
   </body>
   <script src = "js/LAppDefine.js"></script>
