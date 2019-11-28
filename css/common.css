@@ -144,14 +144,15 @@ ul.pagination li a:hover:not(.active) {background-color: #ddd;}
 }
 .tags a , .tags a:hover{
     display: inline-block;
-    border: 1px solid rgba(255,255,255,.8);
+    border: 2px solid rgba(255,255,255,.8);
     border-radius: 999em;
     padding: 0 10px;
     line-height:24px;
-    font-size: 12px;
+    font-size: 14px;
     text-decoration: none;
     margin-bottom: 6px;
     margin-right:5px;
-    color:#bfbfbf;
-    border-color:#bfbfbf
+    color:#cc33cc;
+    border-color:#cc33cc;
+	background-color:#ffff00
 }
