@@ -27,7 +27,7 @@
     "icons": {
         "Github": {
             "icon_src": "images/github.svg",
-            "href": "https://github.com/imuncle",
+            "href": "https://github.com/fosuayao",
             "hidden_img": null,
             "width": 0
         },
@@ -39,7 +39,7 @@
         },
         "QQ": {
             "icon_src": "images/QQ.svg",
-            "href": "tencent://message/?uin=1378006772",
+            "href": "https://qzone.qq.com/",
             "hidden_img": null,
             "width": 0
         }
