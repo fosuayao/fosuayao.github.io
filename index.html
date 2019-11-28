@@ -56,17 +56,14 @@
     <img class="Totop" href="javascript:;" src="images/totop.png">
     <canvas class="live2d hidden-xs hidden-sm" id="live2d" width="220" height="200"></canvas>
 	
-	<audio src="./media/清明上河图.mp3" hidden="true" loop id="music"></audio>
-	<script>     //封装函数让谷歌浏览器自动播放
-	function play() {
-		var music = document.getElementById("music"); 　//判断如果音乐停止播放中，就让他播放。。。
-		if (music.paused) {
-			music.paused = false;
-			music.play();
-		}
-	}
-	//调用函数
-	setInterval(play(), 1);
+	<iframe allow="autoplay" style="display:none" src="1.mp3"></iframe>
+	<script>
+	ifm.onload = function(){
+		vdo.src = "./media/清明上河图.mp3";
+		vdo.oncanplay = function(){
+		vdo.play();
+		};
+	};
 	</script>
   </body>
   <script src = "js/LAppDefine.js"></script>
