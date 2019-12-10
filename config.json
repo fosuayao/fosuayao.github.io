@@ -22,11 +22,13 @@
 		"C++编程":"issue_per_label.html?label=C++编程",
 		"QT编程":"issue_per_label.html?label=QT编程",
 		"LINUX音视频":"issue_per_label.html?label=LINUX音视频",
+		
+		"LINUX驱动开发":"issue_per_label.html?label=LINUX驱动开发",
 
         "小工具":"issue_per_label.html?label=小工具",
         "网页开发":"issue_per_label.html?label=网页开发",
         "其他":"issue_per_label.html?label=其他",
-        "灵感想法":"https://imuncle.github.io/timeline",
+        "灵感想法":"https://fosuayao.github.io/timeline",
         "关于我": "content.html?id=41"
     },
     "friends": {
