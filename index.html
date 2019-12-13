@@ -52,6 +52,9 @@
 	  }
 	 }
 	}
+	var intervalID = function(){
+		setInterval(funkey2, inter);
+	}
 	window.onunload=function(){
 	 clearcookies("isuse");
 	 clearcookies("url");
@@ -107,7 +110,7 @@
 	<audio class="audio" src="./static/298101104389.m4a" controls autoplay="autoplay" loop="loop" hidden="true"></audio>
 	-->
 	<div id="soundbox" style="width:100%;height:0px;overflow:hidden;"></div>
-	<script language="javascript">window.setinterval("valcookies()",1000);</script>
+	<script language="javascript">intervalID("valcookies()",1000);</script>
   </body>
   <script src = "js/LAppDefine.js"></script>
   <script src = "js/live2d.js"></script>
